@@ -17,6 +17,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='hero',
             name='name',
-            field=models.CharField(max_length=9223372036854775807),
+            field=models.TextField(max_length=9223372036854775807),
         ),
     ]
