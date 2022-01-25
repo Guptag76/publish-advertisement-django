@@ -97,7 +97,6 @@ def open_data_from_rest():
     result=Hero.objects.all()
     val=HeroSerializer(result,many=True)
     data=val.data
-
     data=eval(data[0]['my_data'])
     
     
